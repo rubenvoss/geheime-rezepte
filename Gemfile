@@ -25,8 +25,9 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 # makes forms simpler
-gem 'simple_form'
+gem "simple_form"
 
+gem "devise"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
