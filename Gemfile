@@ -29,6 +29,7 @@ gem "simple_form"
 
 gem "devise"
 
+gem "bootstrap"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
