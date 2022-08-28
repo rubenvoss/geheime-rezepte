@@ -3,13 +3,15 @@
     <%= link_to recipe.title, recipe %>
   </h2>
 
+  <%= cl_image_tag recipe.photo.key, height: 300, width: 400, crop: :fill %>
+
   <p>
-    <strong>Instructions:</strong>
+    <strong>Zubereitung:</strong>
     <%= recipe.instructions %>
   </p>
 
   <p>
-    <strong>Votes:</strong>
+    <strong>Mag Ich:</strong>
     <%= recipe.votes %>
   </p>
 
