@@ -1,5 +1,6 @@
 <%= simple_form_for(recipe) do |f| %>
   <%= f.input :title, label: "Rezeptname" %>
+  <%= f.input :ingredients, label: "Zutaten", as: :text %>
   <%= f.input :instructions, label: "Zubereitung", as: :text %>
   <%= f.input :photo, label: "Foto", as: :file %>
   <%= f.input :votes, label: "Gefällt Mir" %>
