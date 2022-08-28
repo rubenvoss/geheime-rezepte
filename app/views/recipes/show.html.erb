@@ -5,5 +5,5 @@
 
 <div>
   <%= link_to "Rezept Bearbeiten", edit_recipe_path(@recipe), class: "btn btn-warning" %> |
-  <%= link_to "Rezept Löschen", @recipe, method: :delete, class: "btn btn-danger" %>
+  <%= link_to "Rezept Löschen", @recipe, data: { 'turbo-method': :delete, 'turbo-confirm': 'Are you sure?' }, class: "btn btn-danger" %>
 </div>
