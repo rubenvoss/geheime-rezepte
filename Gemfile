@@ -57,12 +57,8 @@ gem "dotenv-rails", groups: [:development, :test]
 
 gem "cloudinary"
 
+gem "pg"
 
-
-
-group :production do
-  gem "pg"
-end
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -75,7 +71,7 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-  gem "sqlite3", "~> 1.4"
+  # gem "sqlite3", "~> 1.4"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
