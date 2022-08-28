@@ -42,7 +42,7 @@ class RecipesController < ApplicationController
   # DELETE /recipes/1
   def destroy
     @recipe.destroy
-    redirect_to root_path, notice: "Deleted Recipe."
+    redirect_to root_path, status: :see_other
   end
 
   private
