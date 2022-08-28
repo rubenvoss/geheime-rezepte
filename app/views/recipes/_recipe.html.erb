@@ -3,7 +3,9 @@
     <%= link_to recipe.title, recipe %>
   </h2>
 
-  <%= cl_image_tag recipe.photo.key, height: 300, width: 400, crop: :fill %>
+  <% if recipe.photo.attached? %>
+    <%= cl_image_tag recipe.photo.key, height: 300, width: 400, crop: :fill %>
+  <% end %>
 
   <p>
     <strong>Zubereitung:</strong>
