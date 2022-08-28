@@ -58,6 +58,7 @@ gem "dotenv-rails", groups: [:development, :test]
 gem "cloudinary"
 
 gem "pg"
+# gem "sqlite3"
 
 
 group :development, :test do
@@ -71,7 +72,7 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-  # gem "sqlite3", "~> 1.4"
+  gem "sqlite3", "~> 1.4"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
